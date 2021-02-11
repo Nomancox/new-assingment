@@ -1,0 +1,29 @@
+body{
+  background-color: rgb(223, 236, 241);
+}
+.searchBox{
+  text-align: center;
+  margin-top: 10%;
+  position: relative;
+}
+.ul.li{
+  text-decoration-color: snow;
+}
+  
+.headline{
+margin-left: 10%;
+padding-top: 0;
+}
+.container{
+  padding-top: 5%;
+}
+#meals{
+  margin: 5%;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  column-gap: 10%;
+  row-gap: 50%;
+}
+.food-name{
+ border-color: red;
+}
